@@ -6,7 +6,7 @@ Project name: HSTU Library Management System.
 Technology: Java, Servlet, JSP, MySql database.
 
 --------------------------------------------------
-# Developers: Aysha Siddika Asa, Shikhor Kumer Roy
+Developers: Aysha Siddika Asa, Shikhor Kumer Roy
 --------------------------------------------------
 
 *** Please Use Firefox Web Browser for better UI.
