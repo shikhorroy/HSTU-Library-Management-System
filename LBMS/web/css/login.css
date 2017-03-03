@@ -1,0 +1,27 @@
+*{margin:0px;padding:0px}
+body{
+    background: url(../images/pattern.png) repeat fixed;
+}
+.login_box{
+    margin:150px auto;
+    border-radius:12px;
+    width:400px;height:300px;
+    background-color:#F5F5F5;
+    box-shadow: #142E2E 5px 5px 5px;
+}
+.login_box{}
+.login_box h1{
+    line-height: 60px;
+    margin-left: 140px;}
+.login_box h2 {
+    border-bottom: 1px solid;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    width: 307px;}
+.login_box form{margin-left: 100px;}
+.login_box form input[type=submit]{
+    margin-left: 94px;
+    margin-top: 5px;
+}
+.login_box form span{padding-right: 25px;}

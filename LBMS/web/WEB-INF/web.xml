@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.rasha.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentsController</servlet-name>
+        <servlet-class>com.rasha.controller.StudentsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BooksController</servlet-name>
+        <servlet-class>com.rasha.controller.BooksController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Faces Servlet</servlet-name>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>BorrowController</servlet-name>
+        <servlet-class>com.rasha.controller.BorrowController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReturnController</servlet-name>
+        <servlet-class>com.rasha.controller.ReturnController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentsController</servlet-name>
+        <url-pattern>/StudentsController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BooksController</servlet-name>
+        <url-pattern>/BooksController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Faces Servlet</servlet-name>
+        <url-pattern>/faces/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BorrowController</servlet-name>
+        <url-pattern>/BorrowController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReturnController</servlet-name>
+        <url-pattern>/ReturnController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
