@@ -28,8 +28,8 @@
                 <h1>Shikhor Kumer Roy</h1>
                 <p>Shikhor Kumer Roy, a pationate man who loves to code !!!</p>
                 <p>Roy completed his B.Sc. in Computer Science and Engineering from Hajee Mohammad Danesh Science and Technology
-                    University, Dinjaput - 5200. She has some publication on IEEE and different journals. 
-                    She worked on data mining and published his first paper along with Aysha Siddika Asa and Sumaiya Anika.</p>
+                    University, Dinjaput - 5200. He has some publication on IEEE and different journals. 
+                    He worked on data mining and published his first paper along with Aysha Siddika Asa and Sumaiya Anika.</p>
             </article>
         </div>
     </center>
