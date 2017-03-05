@@ -25,8 +25,8 @@
                     <li><a href="newbook.jsp">Add New Book</a></li>
                 </ul>
 
-                <input type="text" name="searchbox" placeholder="Enter to search..."/>
-                <input type="submit" name ="searchbutton" value="Search"/><br/><br/>
+                <!--<input type="text" name="searchbox" placeholder="Enter to search..."/>
+                <input type="submit" name ="searchbutton" value="Search"/><br/><br/>-->
 
                 <c:if scope="request" test="${exists == 'yes'}" var="reg">
                     <font color="red"><b>*** Id should be unique!!</b></font><br/><br/>
